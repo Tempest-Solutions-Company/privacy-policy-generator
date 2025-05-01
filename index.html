@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Privacy Policy Generator | GDPR & CCPA Compliant</title>
+    <meta name="description" content="Create a custom, legally-compliant privacy policy for your website, app or e-commerce store. Supports GDPR, CCPA, and international privacy laws. Free and easy to use.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Comprehensive Privacy Policy Generator</h1>
+        <p>Generate a detailed, legally-compliant privacy policy for your business in minutes</p>
+        <div class="seo-description">
+            <p>Create a professional, customized privacy policy that meets legal requirements for websites, mobile apps, and online businesses. Our generator automatically includes provisions for GDPR, CCPA, and other privacy regulations based on your business type and location. Protect your business and build trust with your customers with a clear, comprehensive privacy policy that explains how you collect, use, and protect personal data.</p>
+        </div>
+    </header>
+
+    <main>
+        <form id="policyForm">
+            <div class="form-section">
+                <h2>Business Information</h2>
+                <div class="form-group">
+                    <label for="businessName">Business Name *</label>
+                    <input type="text" id="businessName" required>
+                </div>
+                <div class="form-group">
+                    <label for="websiteUrl">Website URL</label>
+                    <input type="url" id="websiteUrl" placeholder="https://example.com">
+                </div>
+                <div class="form-group">
+                    <label for="businessType">Business Type *</label>
+                    <select id="businessType" required>
+                        <option value="">Select business type</option>
+                        <option value="ecommerce">E-Commerce</option>
+                        <option value="blog">Blog/Content Site</option>
+                        <option value="saas">SaaS/Web App</option>
+                        <option value="mobile">Mobile App</option>
+                        <option value="nonprofit">Non-Profit</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="country">Country *</label>
+                    <input type="text" id="country" value="United States">
+                </div>
+                <div class="form-group">
+                    <label for="businessAddress">Business Address</label>
+                    <textarea id="businessAddress" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Contact Information</h2>
+                <div class="form-group">
+                    <label for="contactEmail">Contact Email</label>
+                    <input type="email" id="contactEmail" placeholder="privacy@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="contactPhone">Contact Phone</label>
+                    <input type="tel" id="contactPhone">
+                </div>
+                <div class="form-group">
+                    <label for="contactPage">Privacy Contact Page URL</label>
+                    <input type="url" id="contactPage" placeholder="https://example.com/contact">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Jurisdiction & Compliance *</h2>
+                <div class="form-group">
+                    <label for="jurisdiction">Primary Jurisdiction <span class="info-tooltip" data-tooltip="This is the country where your business is legally established or headquartered. This determines the primary privacy laws you must follow.">ⓘ</span></label>
+                    <select id="jurisdiction" required>
+                        <option value="">Select jurisdiction</option>
+                        <option value="us">United States</option>
+                        <option value="eu">European Union (GDPR)</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="ca">Canada</option>
+                        <option value="au">Australia</option>
+                        <option value="global">Global</option>
+                    </select>
+                    <p class="field-help">This is where your business is based, not where you sell your products/services.</p>
+                </div>
+                
+                <div class="form-group">
+                    <label for="sell_regions">Regions Where You Sell/Operate <span class="info-tooltip" title="Select all regions where you have customers or users. This helps include relevant privacy regulations for those regions.">ⓘ</span></label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="sell_regions" value="us"> United States</label>
+                        <label><input type="checkbox" name="sell_regions" value="eu"> European Union</label>
+                        <label><input type="checkbox" name="sell_regions" value="uk"> United Kingdom</label>
+                        <label><input type="checkbox" name="sell_regions" value="ca"> Canada</label>
+                        <label><input type="checkbox" name="sell_regions" value="au"> Australia</label>
+                        <label><input type="checkbox" name="sell_regions" value="global"> Worldwide</label>
+                    </div>
+                </div>
+
+                <div class="checkbox-group">
+                    <p>Additional Compliance Requirements</p>
+                    <label><input type="checkbox" name="compliance" value="ccpa"> California Consumer Privacy Act (CCPA)</label>
+                    <label><input type="checkbox" name="compliance" value="coppa"> Children's Online Privacy Protection Act (COPPA)</label>
+                    <label><input type="checkbox" name="compliance" value="caloppa"> CalOPPA (California)</label>
+                    <label><input type="checkbox" name="compliance" value="pipeda"> PIPEDA (Canada)</label>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Data Collection *</h2>
+                <div class="checkbox-group">
+                    <p>What data do you collect?</p>
+                    <label><input type="checkbox" name="dataCollected" value="personal"> Personal Information (Name, Email)</label>
+                    <label><input type="checkbox" name="dataCollected" value="financial"> Financial Information</label>
+                    <label><input type="checkbox" name="dataCollected" value="usage"> Usage Data/Analytics</label>
+                    <label><input type="checkbox" name="dataCollected" value="cookies"> Cookies</label>
+                    <label><input type="checkbox" name="dataCollected" value="location"> Location Data</label>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Third Parties</h2>
+                <div class="checkbox-group">
+                    <p>Do you share data with any third parties?</p>
+                    <label><input type="checkbox" name="thirdParties" value="analytics"> Analytics (Google Analytics, etc.)</label>
+                    <label><input type="checkbox" name="thirdParties" value="advertising"> Advertising Networks</label>
+                    <label><input type="checkbox" name="thirdParties" value="payment"> Multiple Payment Processors</label>
+                    <label><input type="checkbox" name="thirdParties" value="paypal_only"> PayPal Only (We don't store payment details)</label>
+                    <label><input type="checkbox" name="thirdParties" value="cloud"> Cloud Services Providers</label>
+                    <label><input type="checkbox" name="thirdParties" value="social"> Social Media Platforms</label>
+                    <label><input type="checkbox" name="thirdParties" value="email"> Email Marketing Services</label>
+                </div>
+            </div>
+
+            <button type="submit" id="generateBtn">Generate Comprehensive Privacy Policy</button>
+        </form>
+
+        <div id="result" class="hidden">
+            <div class="result-controls">
+                <button id="copyBtn">Copy to Clipboard</button>
+                <button id="downloadBtn">Download as HTML</button>
+                <button id="downloadMarkdownBtn">Download as Markdown</button>
+                <button id="resetBtn">Create Another</button>
+            </div>
+            <div id="policyPreview"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>This tool generates comprehensive privacy policies based on your inputs but is not a substitute for legal advice. 
+           Please review the generated policy with a qualified legal professional.</p>
+        <p>Created by Privacy Policy Generator | <a href="https://github.com/yourusername/privacy-policy-generator">View on GitHub</a></p>
+    </footer>
+
+    <script src="js/generator.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

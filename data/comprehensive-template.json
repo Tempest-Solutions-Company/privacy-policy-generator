@@ -1,0 +1,210 @@
+{
+  "version": "1.0",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "1. Introduction",
+      "required": true,
+      "content": "This Privacy Policy describes how {business_name} (\"we,\" \"us,\" or \"our\") collects, uses, and discloses your personal information when you use our {service_type} (the \"Service\").\n\nWe are committed to protecting your personal information and your right to privacy. When you visit our {service_type} and use our products, you trust us with your personal information. We take your privacy very seriously. In this Privacy Policy, we seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it.\n\nThis Privacy Policy applies to all information collected through our {service_type}, as well as any related services, sales, marketing, or events.\n\nPlease read this Privacy Policy carefully as it will help you understand what we do with the information we collect."
+    },
+    {
+      "id": "definitions",
+      "title": "2. Definitions",
+      "required": true,
+      "content": "To help explain things as clearly as possible in this Privacy Policy, every time any of these terms are referenced, they are strictly defined as:\n\n- **Cookie**: a small file placed on your device to enable certain features and functionality.\n- **Company**: when this policy mentions \"Company,\" \"we,\" \"us,\" or \"our,\" it refers to {business_name}.\n- **Country**: where {business_name} or the owners/founders of {business_name} are based, in this case {country}.\n- **Customer**: refers to the company, organization, or person that signs up to use the {business_name} Service.\n- **Device**: any internet-connected device such as a phone, tablet, computer, or any other device that can be used to visit {business_name} and use the services.\n- **Personal Data**: any information that directly, indirectly, or in connection with other information allows for the identification of a natural person.\n- **Service**: refers to the {service_type} provided by {business_name} as described in the relative terms and on this platform.\n- **Third-party service**: refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.\n- **Website**: {business_name}'s site, which can be accessed via {website_url}.\n- **You**: a person or entity that is registered with {business_name} to use the Services."
+    },
+    {
+      "id": "information_collected",
+      "title": "3. Information We Collect",
+      "required": true,
+      "content": "We collect several different types of information for various purposes to provide and improve our Service to you.",
+      "subsections": [
+        {
+          "id": "personal_data",
+          "title": "3.1 Personal Data",
+          "condition": "data_collected.includes('personal')",
+          "content": "While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to:\n\n- Email address\n- First name and last name\n- Phone number\n- Address, State, Province, ZIP/Postal code, City\n- Cookies and Usage Data"
+        },
+        {
+          "id": "financial_data",
+          "title": "3.2 Financial Data",
+          "condition": "data_collected.includes('financial')",
+          "content": "Financial information such as payment method details (including credit card numbers, banking information) is collected and stored by our payment processors, and we may receive certain information from these payment processors to facilitate payments. All payment data is stored by our payment processor{financial_processors}, and you should review their privacy policies to understand their privacy practices."
+        },
+        {
+          "id": "usage_data",
+          "title": "3.3 Usage Data",
+          "condition": "data_collected.includes('usage')",
+          "content": "We may also collect information about how the Service is accessed and used (\"Usage Data\"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data."
+        },
+        {
+          "id": "location_data",
+          "title": "3.4 Location Data",
+          "condition": "data_collected.includes('location')",
+          "content": "We may use and store information about your location if you give us permission to do so (\"Location Data\"). We use this data to provide features of our Service, to improve and customize our Service.\n\nYou can enable or disable location services when you use our Service at any time, through your device settings."
+        },
+        {
+          "id": "tracking_cookies",
+          "title": "3.5 Tracking Technologies and Cookies",
+          "condition": "data_collected.includes('cookies')",
+          "content": "We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.\n\nCookies are files with a small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.\n\nYou can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.\n\nExamples of Cookies we use:\n\n- **Session Cookies**: We use Session Cookies to operate our Service.\n- **Preference Cookies**: We use Preference Cookies to remember your preferences and various settings.\n- **Security Cookies**: We use Security Cookies for security purposes.\n- **Advertising Cookies**: Advertising Cookies are used to serve you with advertisements that may be relevant to you and your interests."
+        }
+      ]
+    },
+    {
+      "id": "data_use",
+      "title": "4. How We Use Your Information",
+      "required": true,
+      "content": "{business_name} uses the collected data for various purposes:\n\n- To provide and maintain our Service\n- To notify you about changes to our Service\n- To allow you to participate in interactive features of our Service when you choose to do so\n- To provide customer support\n- To gather analysis or valuable information so that we can improve our Service\n- To monitor the usage of our Service\n- To detect, prevent and address technical issues\n- To fulfill any other purpose for which you provide it\n- To provide you with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless you have opted not to receive such information\n- In any other way we may describe when you provide the information\n- For any other purpose with your consent"
+    },
+    {
+      "id": "legal_basis_gdpr",
+      "title": "5. Legal Basis for Processing Personal Data Under GDPR",
+      "condition": "jurisdiction === 'eu' || jurisdiction === 'uk'",
+      "content": "If you are from the European Economic Area (EEA), {business_name} legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data we collect and the specific context in which we collect it.\n\n{business_name} may process your Personal Data because:\n\n- We need to perform a contract with you\n- You have given us permission to do so\n- The processing is in our legitimate interests and it's not overridden by your rights\n- To comply with the law"
+    },
+    {
+      "id": "data_retention",
+      "title": "6. Retention of Your Personal Data",
+      "required": true,
+      "content": "{business_name} will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.\n\n{business_name} will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our Service, or we are legally obligated to retain this data for longer time periods.",
+      "subsections": [
+        {
+          "id": "ecommerce_physical_goods_retention",
+          "title": "6.1 Data Retention for Physical Goods",
+          "condition": "businessType === 'ecommerce'",
+          "content": "For orders involving physical goods, we retain your shipping and billing information, including your name, address, and contact details, as necessary to fulfill your order, process returns, manage warranty claims, and comply with tax, legal, and regulatory obligations. This information may be retained for a longer period than other personal data to ensure proper delivery of goods and to handle any post-purchase issues that may arise."
+        }
+      ]
+    },
+    {
+      "id": "data_transfer",
+      "title": "7. Transfer of Your Personal Data",
+      "required": true,
+      "content": "Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction.\n\nIf you are located outside {country} and choose to provide information to us, please note that we transfer the data, including Personal Data, to {country} and process it there.\n\nYour consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.\n\n{business_name} will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information."
+    },
+    {
+      "id": "disclosure",
+      "title": "8. Disclosure of Your Personal Data",
+      "required": true,
+      "content": "### Business Transactions\n\nIf {business_name} is involved in a merger, acquisition or asset sale, your Personal Data may be transferred. We will provide notice before your Personal Data is transferred and becomes subject to a different Privacy Policy.\n\n### Disclosure for Law Enforcement\n\nUnder certain circumstances, {business_name} may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).\n\n### Legal Requirements\n\n{business_name} may disclose your Personal Data in the good faith belief that such action is necessary to:\n\n- Comply with a legal obligation\n- Protect and defend the rights or property of {business_name}\n- Prevent or investigate possible wrongdoing in connection with the Service\n- Protect the personal safety of users of the Service or the public\n- Protect against legal liability"
+    },
+    {
+      "id": "third_party_disclosure",
+      "title": "9. Third-Party Disclosure",
+      "required": true,
+      "subsections": [
+        {
+          "id": "analytics",
+          "title": "9.1 Analytics",
+          "condition": "third_parties.includes('analytics')",
+          "content": "We may use third-party Service Providers to monitor and analyze the use of our Service.\n\n- **Google Analytics**: Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network. You can opt-out of having made your activity on the Service available to Google Analytics by installing the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript from sharing information with Google Analytics about visits activity. For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: [https://policies.google.com/privacy](https://policies.google.com/privacy)"
+        },
+        {
+          "id": "advertising",
+          "title": "9.2 Advertising",
+          "condition": "third_parties.includes('advertising')",
+          "content": "We may use third-party Service Providers to show advertisements to you to help support and maintain our Service.\n\n- **Google AdSense & DoubleClick Cookie**: Google, as a third-party vendor, uses cookies to serve ads on our Service. Google's use of the DoubleClick cookie enables it and its partners to serve ads to our users based on their visit to our Service or other websites on the Internet. You may opt out of the use of the DoubleClick Cookie for interest-based advertising by visiting the Google Ads Settings web page: [http://www.google.com/ads/preferences/](http://www.google.com/ads/preferences/)"
+        },
+        {
+          "id": "payment",
+          "title": "9.3 Payments",
+          "condition": "third_parties.includes('payment')",
+          "content": "We may provide paid products and/or services within the Service. In that case, we use third-party services for payment processing (e.g. payment processors).\n\nWe will not store or collect your payment card details. That information is provided directly to our third-party payment processors whose use of your personal information is governed by their Privacy Policy. These payment processors adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, Mastercard, American Express and Discover. PCI-DSS requirements help ensure the secure handling of payment information.\n\nThe payment processors we work with are:\n\n- **PayPal or Braintree**: Their Privacy Policy can be viewed at [https://www.paypal.com/webapps/mpp/ua/privacy-full](https://www.paypal.com/webapps/mpp/ua/privacy-full)\n- **Stripe**: Their Privacy Policy can be viewed at [https://stripe.com/us/privacy](https://stripe.com/us/privacy)"
+        },
+        {
+          "id": "paypal_only",
+          "title": "9.3 PayPal Payments Only",
+          "condition": "third_parties.includes('paypal_only')",
+          "content": "For all payment processing, we exclusively use PayPal as our payment processor. When you make a purchase on our site, you will be directed to PayPal to complete your transaction.\n\n**We do not collect, store, or process any payment card details on our servers.** All payment information is provided directly to PayPal, whose use of your personal information is governed by their Privacy Policy, which can be viewed at [https://www.paypal.com/webapps/mpp/ua/privacy-full](https://www.paypal.com/webapps/mpp/ua/privacy-full).\n\nPayPal adheres to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, Mastercard, American Express and Discover. PCI-DSS requirements help ensure the secure handling of payment information."
+        },
+        {
+          "id": "cloud",
+          "title": "9.4 Cloud Services",
+          "condition": "third_parties.includes('cloud')",
+          "content": "We may use third-party cloud service providers to host our Service and store your data.\n\n- **Amazon Web Services (AWS)**: Their Privacy Policy can be viewed at [https://aws.amazon.com/privacy/](https://aws.amazon.com/privacy/)\n- **Microsoft Azure**: Their Privacy Policy can be viewed at [https://privacy.microsoft.com/en-us/privacystatement](https://privacy.microsoft.com/en-us/privacystatement)\n- **Google Cloud Platform**: Their Privacy Policy can be viewed at [https://cloud.google.com/terms/cloud-privacy-notice](https://cloud.google.com/terms/cloud-privacy-notice)"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "10. Security of Your Personal Data",
+      "required": true,
+      "content": "The security of your Personal Data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security."
+    },
+    {
+      "id": "children_privacy",
+      "title": "11. Children's Privacy",
+      "required": true,
+      "content": "Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from anyone under the age of 13 without verification of parental consent, we take steps to remove that information from our servers.\n\nIf we need to rely on consent as a legal basis for processing your information and your country requires consent from a parent, we may require your parent's consent before we collect and use that information."
+    },
+    {
+      "id": "your_rights",
+      "title": "12. Your Data Protection Rights",
+      "required": true,
+      "content": "Depending on your location and applicable laws, you may have certain rights regarding your personal information, including rights to access, correct, delete, or restrict use of your information. We honor these rights regardless of your location and are committed to providing reasonable access to the information that you have shared with us.",
+      "subsections": [
+        {
+          "id": "general_data_rights",
+          "title": "12.1 General Data Access & Deletion Rights",
+          "required": true,
+          "content": "Regardless of your location, you can make the following requests regarding your personal data:\n\n- **Access Your Data**: You can request a copy of the personal information we have about you. We will provide this information in a structured, commonly used, and machine-readable format.\n\n- **Delete Your Data**: You can request that we delete your personal information from our systems. We will comply with this request unless there is a legal requirement for us to keep certain information.\n\nTo submit a data access or deletion request, please contact us using the contact information provided at the end of this Privacy Policy. We will respond to your request within 30 days. We may need to verify your identity before processing your request."
+        },
+        {
+          "id": "gdpr_rights",
+          "title": "12.2 GDPR Data Protection Rights (EU & UK Residents)",
+          "condition": "jurisdiction === 'eu' || jurisdiction === 'uk'",
+          "content": "If you are a resident of the European Economic Area (EEA) or the United Kingdom, you have certain data protection rights under the GDPR and UK GDPR. {business_name} aims to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.\n\nIf you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please contact us.\n\nIn certain circumstances, you have the following data protection rights:\n\n- **The right to access, update or to delete** the information we have on you. Whenever made possible, you can access, update or request deletion of your Personal Data directly within your account settings section. If you are unable to perform these actions yourself, please contact us to assist you. We will comply with such requests within 30 days.\n\n- **The right of rectification.** You have the right to have your information rectified if that information is inaccurate or incomplete\n\n- **The right to object** to our processing of your Personal Data\n\n- **The right of restriction.** You have the right to request that we restrict the processing of your personal information\n\n- **The right to data portability.** You have the right to be provided with a copy of your Personal Data in a structured, machine-readable and commonly used format\n\n- **The right to withdraw consent.** You also have the right to withdraw your consent at any time where {business_name} relied on your consent to process your personal information\n\nPlease note that we may ask you to verify your identity before responding to such requests.\n\nYou have the right to complain to a Data Protection Authority about our collection and use of your Personal Data. For more information, please contact your local data protection authority in the European Economic Area (EEA) or the UK Information Commissioner's Office (ICO)."
+        },
+        {
+          "id": "ccpa_rights",
+          "title": "12.3 CCPA Privacy Rights (California Residents)",
+          "condition": "jurisdiction === 'us'",
+          "content": "If you are a California resident, you are entitled to learn what data we collect about you, ask to delete your data and not to sell (share) it. To exercise your data protection rights, you can make certain requests and ask us:\n\n- **What personal information we have about you.** If you make this request, we will return to you:\n  - The categories of personal information we have collected about you\n  - The categories of sources from which we collect your personal information\n  - The business or commercial purpose for collecting or selling your personal information\n  - The categories of third parties with whom we share personal information\n  - The specific pieces of personal information we have collected about you\n  - A list of categories of personal information that we have sold, along with the category of any other company we sold it to\n  - A list of categories of personal information that we have disclosed for a business purpose, along with the category of any other company we shared it with\n\n- **To delete your personal information.** If you make this request, we will delete the personal information we hold about you as of the date of your request from our records and direct any service providers to do the same. In some cases, deletion may be accomplished through de-identification of the information. If you choose to delete your personal information, you may not be able to use certain functions that require your personal information to operate.\n\n- **To stop selling your personal information.** We don't sell or rent your personal information to any third parties for any purpose. We do not sell your personal information for monetary consideration. However, under some state laws, sharing your data through certain targeted advertisements may be considered a \"sale\" of information. You are the only owner of your Personal Data and can request disclosure or deletion at any time.\n\nWe will respond to verified requests within 45 days as required by the CCPA. If we need more time, we will inform you of the reason and extension period in writing.\n\nPlease note, if you ask us to delete or stop selling your data, it may impact your experience with us, and you may not be able to participate in certain programs or membership services which require the usage of your personal information to function. But in no circumstances, we will discriminate against you for exercising your rights.\n\nTo exercise your California data protection rights described above, please send your request(s) by email: {contact_email}.\n\nYour data protection rights, described above, are covered by the CCPA, short for the California Consumer Privacy Act. To find out more, visit the official California Legislative Information website. The CCPA took effect on 01/01/2020."
+        },
+        {
+          "id": "canada_rights",
+          "title": "12.4 Canadian Privacy Rights",
+          "condition": "jurisdiction === 'ca'",
+          "content": "Under Canada's Personal Information Protection and Electronic Documents Act (PIPEDA) and provincial privacy laws, you have the right to:\n\n- Access your personal information in our custody or control\n- Request correction of your personal information if it is inaccurate or incomplete\n- Withdraw consent to the collection, use, or disclosure of your personal information\n- File a complaint with the Office of the Privacy Commissioner of Canada about the handling of your personal information\n\nWe will respond to your access or correction request within 30 days, unless an extension is required. There may be situations where we cannot provide access to all the personal information we hold about you, such as if doing so would reveal personal information about another individual or if the information is protected by legal privilege."
+        },
+        {
+          "id": "australia_rights",
+          "title": "12.5 Australian Privacy Rights",
+          "condition": "jurisdiction === 'au'",
+          "content": "Under the Australian Privacy Principles (APPs), you have the right to:\n\n- Request access to your personal information\n- Request correction of your personal information\n- Opt-out of receiving direct marketing communications\n- Make a complaint about a breach of the APPs\n\nWe will respond to your access or correction request within 30 days. If we refuse to give you access to or correct your personal information, we will provide you with reasons for our decision and information about how to make a complaint if you are not satisfied with our response."
+        },
+        {
+          "id": "global_rights",
+          "title": "12.6 Other Jurisdictions",
+          "condition": "jurisdiction === 'global'",
+          "content": "Many countries around the world have adopted comprehensive data protection laws that provide various rights to individuals regarding their personal data. Even if we haven't specifically listed your country's laws, we're committed to respecting your rights to access and delete your personal information wherever you are located.\n\nIf you have any questions about exercising your data rights, please contact us using the information provided in the \"Contact Us\" section below."
+        }
+      ]
+    },
+    {
+      "id": "service_providers",
+      "title": "13. Service Providers",
+      "required": true,
+      "content": "We may employ third-party companies and individuals to facilitate our Service (\"Service Providers\"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.\n\nThese third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose."
+    },
+    {
+      "id": "links_other_sites",
+      "title": "14. Links to Other Sites",
+      "required": true,
+      "content": "Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.\n\nWe have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services."
+    },
+    {
+      "id": "changes_policy",
+      "title": "15. Changes to This Privacy Policy",
+      "required": true,
+      "content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.\n\nWe will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the \"effective date\" at the top of this Privacy Policy.\n\nYou are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+    },
+    {
+      "id": "contact_us",
+      "title": "16. Contact Us",
+      "required": true,
+      "content": "If you have any questions about this Privacy Policy, please contact us:\n\n- By email: {contact_email}\n- By visiting this page on our website: {contact_page}\n- By phone number: {contact_phone}\n- By mail: {business_address}"
+    }
+  ]
+}

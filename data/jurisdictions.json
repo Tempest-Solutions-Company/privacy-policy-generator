@@ -1,0 +1,44 @@
+{
+  "us": {
+    "name": "United States",
+    "dataRights": "Under US laws like the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected about them, request deletion of their personal information, opt-out of the sale of their personal information, and not be discriminated against for exercising these rights.",
+    "dataRetention": "We will retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable laws and regulations.",
+    "specificRequirements": "If you are a California resident, you have specific rights under the CCPA. For more information about your California privacy rights, please see our CCPA Privacy Notice.",
+    "requiredElements": ["ccpa", "coppa_statement", "security_measures"]
+  },
+  "eu": {
+    "name": "European Union (GDPR)",
+    "dataRights": "Under the General Data Protection Regulation (GDPR), you have the right to access, rectify, or erase your personal data, the right to restrict or object to our processing of your data, and the right to data portability. You also have the right to withdraw consent at any time where we rely on consent to process your personal data.",
+    "dataRetention": "We will retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, and to comply with our legal obligations. The criteria used to determine our retention periods include the nature of the data, the purposes for processing, and legal requirements.",
+    "specificRequirements": "We process your data based on one or more legal grounds: your consent, the necessity to perform a contract with you, compliance with a legal obligation, protection of vital interests, public interest, or our legitimate interests where these are not overridden by your data protection rights.",
+    "requiredElements": ["legal_basis", "international_transfers", "automated_decision_making", "dpo_details"]
+  },
+  "uk": {
+    "name": "United Kingdom",
+    "dataRights": "Under UK data protection laws, including the UK GDPR and Data Protection Act 2018, you have the right to access, rectify, or erase your personal data, the right to restrict or object to our processing of your data, and the right to data portability. You also have the right to withdraw consent where applicable.",
+    "dataRetention": "We will retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, and to comply with our legal obligations. The criteria used to determine our retention periods include the nature of the data, the purposes for processing, and legal requirements.",
+    "specificRequirements": "We process your data based on one or more legal grounds: your consent, the necessity to perform a contract with you, compliance with a legal obligation, protection of vital interests, public interest, or our legitimate interests where these are not overridden by your data protection rights.",
+    "requiredElements": ["legal_basis", "international_transfers", "ico_registration"]
+  },
+  "ca": {
+    "name": "Canada",
+    "dataRights": "Under the Personal Information Protection and Electronic Documents Act (PIPEDA) and other Canadian privacy laws, you have the right to access your personal information, challenge the accuracy of your information, and have it amended as appropriate.",
+    "dataRetention": "We will only retain personal information for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable laws.",
+    "specificRequirements": "We obtain consent for the collection, use, and disclosure of personal information, except where inappropriate. Personal information is only used for the purposes for which it was collected.",
+    "requiredElements": ["consent_requirements", "accuracy_statements"]
+  },
+  "au": {
+    "name": "Australia",
+    "dataRights": "Under the Australian Privacy Principles (APPs), you have the right to access your personal information, request correction of inaccurate information, and make complaints about breaches of the APPs.",
+    "dataRetention": "We will retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable laws.",
+    "specificRequirements": "We take reasonable steps to ensure the personal information we collect is accurate, up-to-date, and complete. We protect personal information from misuse, interference, loss, and unauthorized access.",
+    "requiredElements": ["app_compliance", "overseas_disclosure"]
+  },
+  "global": {
+    "name": "Global",
+    "dataRights": "You have the right to access your personal information, request correction of inaccurate information, and request deletion of your data in certain circumstances. You may also have the right to object to certain processing of your information.",
+    "dataRetention": "We will retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable laws.",
+    "specificRequirements": "As we operate globally, we comply with applicable data protection laws in each jurisdiction where we collect or process personal information.",
+    "requiredElements": ["general_rights", "security_measures"]
+  }
+}

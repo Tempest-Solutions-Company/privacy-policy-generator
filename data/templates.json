@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "ecommerce": {
+    "name": "E-Commerce",
+    "description": "For online stores and e-commerce websites",
+    "specifics": [
+      {
+        "id": "order_processing",
+        "title": "Order Processing",
+        "content": "We process your personal information to fulfill orders, process payments, arrange for shipping, and provide you with invoices and/or order confirmations. We use trusted third-party payment processors to handle secure payment transactions."
+      },
+      {
+        "id": "customer_accounts",
+        "title": "Customer Accounts",
+        "content": "When you create an account on our site, we store your name, address, email, and phone number, which enables you to check out faster in the future, store multiple shipping addresses, view and track your orders, and more."
+      },
+      {
+        "id": "physical_goods_data_retention",
+        "title": "Data Retention for Physical Goods",
+        "content": "For orders involving physical goods, we retain your shipping and billing information, including your name, address, and contact details, as necessary to fulfill your order, process returns, manage warranty claims, and comply with tax, legal, and regulatory obligations. This information may be retained for a longer period than other personal data to ensure proper delivery of goods and to handle any post-purchase issues that may arise."
+      },
+      {
+        "id": "marketing",
+        "title": "Marketing Communications",
+        "content": "With your permission, we may send you emails about our store, new products and other updates. You have the right to opt-out of receiving marketing communications at any time."
+      }
+    ]
+  },
+  "blog": {
+    "name": "Blog/Content Site",
+    "description": "For blogs, news sites, and content-focused websites",
+    "specifics": [
+      {
+        "id": "comments",
+        "title": "Comments",
+        "content": "When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor's IP address and browser user agent string to help spam detection."
+      },
+      {
+        "id": "subscription",
+        "title": "Subscriptions",
+        "content": "If you subscribe to our blog or newsletter, we collect your email address to send you content updates. You can unsubscribe at any time using the link provided in each email."
+      }
+    ]
+  },
+  "saas": {
+    "name": "SaaS/Web App",
+    "description": "For software-as-a-service applications",
+    "specifics": [
+      {
+        "id": "account_data",
+        "title": "Account Data",
+        "content": "To access and use our services, you need to create an account. We collect your name, email address, password, and any other information necessary to set up and maintain your account."
+      },
+      {
+        "id": "service_data",
+        "title": "Service Data",
+        "content": "We collect information that you upload, create, or modify when using our services, including any files, content, or data you choose to store within our application."
+      },
+      {
+        "id": "subscription_billing",
+        "title": "Subscription and Billing",
+        "content": "For paid services, we collect billing information including payment method details, billing address, and transaction history. This information is used to process payments and maintain your subscription."
+      }
+    ]
+  },
+  "mobile": {
+    "name": "Mobile App",
+    "description": "For iOS, Android, and other mobile applications",
+    "specifics": [
+      {
+        "id": "device_info",
+        "title": "Device Information",
+        "content": "We collect information about your mobile device, including model, operating system, unique device identifiers, mobile network information, and in some cases, your device's location."
+      },
+      {
+        "id": "app_usage",
+        "title": "App Usage",
+        "content": "We collect information about how you use our app, including your interactions with various features, screens you visit, and actions you take within the app."
+      },
+      {
+        "id": "push_notifications",
+        "title": "Push Notifications",
+        "content": "With your consent, we may send push notifications to your device. You can disable push notifications in your device settings at any time."
+      }
+    ]
+  },
+  "nonprofit": {
+    "name": "Non-Profit",
+    "description": "For non-profit organizations and charities",
+    "specifics": [
+      {
+        "id": "donation_processing",
+        "title": "Donation Processing",
+        "content": "When you make a donation, we collect payment information, billing details, and contact information. This information is used to process your donation, issue receipts, and maintain donation records for tax and regulatory compliance."
+      },
+      {
+        "id": "volunteer_info",
+        "title": "Volunteer Information",
+        "content": "If you sign up as a volunteer, we collect personal details such as your name, contact information, skills, availability, and any other information necessary to coordinate volunteer activities."
+      }
+    ]
+  },
+  "general": {
+    "name": "General Website",
+    "description": "Generic template for most websites",
+    "specifics": [
+      {
+        "id": "contact_form",
+        "title": "Contact Forms",
+        "content": "When you fill out a contact form on our website, we collect the personal information you provide, such as your name, email address, and any message you send us. This information is used to respond to your inquiries."
+      }
+    ]
+  }
+}
