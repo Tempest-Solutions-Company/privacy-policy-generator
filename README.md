@@ -34,7 +34,7 @@ Generated privacy policies include all necessary sections:
 
 ### Web Interface
 
-1. Visit [https://yourusername.github.io/privacy-policy-generator/](https://yourusername.github.io/privacy-policy-generator/)
+1. Visit https://tempest-solutions-company.github.io/privacy-policy-generator/
 2. Fill out the form with your business details
 3. Select what data you collect and third parties you use
 4. Generate your comprehensive privacy policy
