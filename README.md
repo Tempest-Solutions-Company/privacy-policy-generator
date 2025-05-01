@@ -44,7 +44,7 @@ Generated privacy policies include all necessary sections:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Tempest-Solutions-Company/privacy-policy-generator](https://github.com/Tempest-Solutions-Company/privacy-policy-generator)
+git clone https://github.com/Tempest-Solutions-Company/privacy-policy-generator
 cd privacy-policy-generator
 
 # Open index.html in your browser
